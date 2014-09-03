@@ -1,0 +1,15 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+$(function () {
+    $('#js-button').click(function () {
+        top.postMessage("There is no one else beside Him", window.location);
+    });
+});
+</script>
+</head>
+<body>
+<button id="js-button">Send message to parent</button>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+$(function () {
+    $(window).on('message', function (e) {
+        $('#js-messages').append(e.originalEvent.data);
+    });
+});
+</script>
+</head>
+<body>
+<iframe src="/iframe"></iframe>
+<div id="js-messages"></div>
+</body>
+</html>
