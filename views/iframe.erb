@@ -4,8 +4,7 @@
 <script>
 $(function () {
     $('#js-button').click(function () {
-        console.log(document.referrer);
-        top.postMessage("There is no one else beside Him", origin);
+        top.postMessage("There is no one else beside Him", document.referrer);
     });
 });
 </script>
