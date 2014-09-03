@@ -1,4 +1,4 @@
-```ruby
+```bash
 $ ruby serve.rb
 ```
 
